@@ -1,0 +1,22 @@
+{
+  "name": "v8-stats",
+  "version": "0.0.1",
+  "description": "A nodejs v8 stats stream",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint .",
+    "test": "./node_modules/tape/bin/tape test/test-v8.js"
+  },
+  "keywords": [
+    "node",
+    "v8",
+    "stats",
+    "metrics"
+  ],
+  "author": "Shaun Warman",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "tape": "^4.8.0"
+  }
+}
